@@ -19,5 +19,6 @@ resource "aws_s3_bucket" "demo" {
   tags = {
     Name = "terraform-demo"
     Env  = "dev"
+    Test = "true"
   }
 }
